@@ -4,7 +4,7 @@ Kullanılabilen karakterler ( ACDEFGHKLMNPRTXYZ234579 )
 Bu program algoritmik olarak 8 karakter uniqe kod üretmeyi ve kontrol etmeyi sağlar.
 
 Program uniqe kod üretmeyi sadece ilk çalıştırmada sağlar.
-Tekrar çalıştırmadan önce veri tabanını sıfırlamayı unutmayın.
+Tekrar çalıştırmadan önce veri tabanını sıfırlamayı unutmayınız.
 
 Veri tabanından değil algoritmik olarak kodun geçerliliğini kontrol eder.
 
@@ -16,3 +16,6 @@ Son karakter sadece 2 oluyor.
 
 
 Teorik olarak 28543782 farklı kod üretebilir.
+
+
+*CodeFirst olarak tasarlanmıştır. Önce migration yapınız sonra programı çalıştırınız.
