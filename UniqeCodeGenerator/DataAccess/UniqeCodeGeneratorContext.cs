@@ -13,7 +13,7 @@ namespace UniqeCodeGenerator.DataAccess
         public DbSet<UniqeCode> UniqeCodes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString: @"server=.;database=CodeGeneratorDb;user id=sa;password=122333;multipleactiveresultsets=true;");
+            optionsBuilder.UseSqlServer(connectionString: @"server=.;database=CodeGeneratorDb;user id=sa;password=xx;multipleactiveresultsets=true;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
